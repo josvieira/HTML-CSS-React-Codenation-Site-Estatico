@@ -1,0 +1,107 @@
+body{
+    background-color: #dee7ee;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title{
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu ul{
+    display: flex;
+    list-style: none;
+}
+.navbar-menu li{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.header{
+    background-image: url(books-1655783_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div{
+    background-color: white;
+    padding: 20px 40px;
+    font-size: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    margin: 50px 30px;
+}
+
+.card-header img{
+    width: 100%;
+}
+
+.card-body{
+    text-align: center;
+    padding: 15px 25px;
+    background-color: azure;
+
+}
+
+.card-content h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.card-content h2{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 200;
+    color: grey;
+}
+
+.card-content p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 30px 30px 20px;
+}
+
+.card-footer{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    color: grey;
+}
+
+.card-footer a{
+    text-decoration: none;
+    color: grey;
+}
