@@ -1,7 +1,9 @@
 body{
     background-color: #dee7ee;
-    margin: 0;
+    margin: 10;
     font-family: 'Roboto', sans-serif;
+    shape-margin: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar{
@@ -57,16 +59,25 @@ body{
 .card{
     width: 300px;
     margin: 50px 30px;
+    
+}
+
+.card-header{
+    border: o;
 }
 
 .card-header img{
     width: 100%;
+    border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card-body{
     text-align: center;
     padding: 15px 25px;
     background-color: azure;
+    border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
 
